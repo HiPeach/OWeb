@@ -575,7 +575,7 @@ a.second-link:hover {
 }
 
 .special-card {
-  background: #131202;
+  background: rgb(193,104,21);
   width: 90%;
   border-radius: 30px;
   max-width: 1200px;
