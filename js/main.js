@@ -95,3 +95,14 @@ function scrollToTopWithAnimation() {
 
   requestAnimationFrame(animation);
 }
+
+//复制加速IP
+function copyToClipboard(text) {  
+  navigator.clipboard.writeText(text)  
+    .then(() => {  
+      console.log('复制成功！');  
+    })  
+    .catch(() => {  
+      console.error('复制失败，请尝试手动复制。');  
+    });  
+}
